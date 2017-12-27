@@ -60,7 +60,6 @@ nav span {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /*align-content: space-around;*/
   flex-wrap: wrap;
   height: 500px;
   width: 1100px;
@@ -71,6 +70,26 @@ nav span {
   margin-left: 150px;
   margin-right: 150px;
 }
-.image {
+h3 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+.locations {
+  width: 1200px;
+  align-items: center;
+  background-color: yellow;
+  text-align: center;
+  margin-left: 70px;
+}
+.loc-image {
+  background-color: purple;
+  position: relative;
+  z-index: 1;
+  height: 500px;
+  width: 1200px;
+  margin-left: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
